@@ -1,0 +1,25 @@
+16.02.2021 00:52:19.505 [SpringContextShutdownHook] DEBUG  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@77f1baf5, started on Tue Feb 16 00:42:24 GMT+04:00 2021
+16.02.2021 00:52:19.508 [SpringContextShutdownHook] DEBUG  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+16.02.2021 00:52:19.510 [SpringContextShutdownHook] DEBUG  o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerGracefulShutdown' completed its stop procedure
+16.02.2021 00:52:19.511 [SpringContextShutdownHook] DEBUG  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483646
+16.02.2021 00:52:19.530 [SpringContextShutdownHook] DEBUG  o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerStartStop' completed its stop procedure
+16.02.2021 00:52:19.544 [SpringContextShutdownHook] INFO   o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+16.02.2021 00:52:19.545 [SpringContextShutdownHook] INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16.02.2021 00:52:19.545 [SpringContextShutdownHook] DEBUG  o.h.i.SessionFactoryImpl - HHH000031: Closing
+16.02.2021 00:52:19.545 [SpringContextShutdownHook] DEBUG  o.h.t.s.TypeConfiguration$Scope - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@7c95932a] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@2be21396]
+16.02.2021 00:52:19.547 [SpringContextShutdownHook] DEBUG  o.h.s.i.AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+16.02.2021 00:52:19.548 [SpringContextShutdownHook] DEBUG  o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+16.02.2021 00:52:19.548 [SpringContextShutdownHook] INFO   c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16.02.2021 00:52:19.548 [SpringContextShutdownHook] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+16.02.2021 00:52:19.549 [HikariPool-1 connection closer] DEBUG  c.z.h.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@340a8894: (connection evicted)
+16.02.2021 00:52:19.553 [HikariPool-1 connection closer] DEBUG  c.z.h.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@590db5b9: (connection evicted)
+16.02.2021 00:52:19.553 [HikariPool-1 connection closer] DEBUG  c.z.h.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2d594cc9: (connection evicted)
+16.02.2021 00:52:19.555 [HikariPool-1 connection closer] DEBUG  c.z.h.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c20cfb3: (connection evicted)
+16.02.2021 00:52:19.556 [HikariPool-1 connection closer] DEBUG  c.z.h.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2c94d97: (connection evicted)
+16.02.2021 00:52:19.557 [HikariPool-1 connection closer] DEBUG  c.z.h.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@9a6dfba: (connection evicted)
+16.02.2021 00:52:19.559 [HikariPool-1 connection closer] DEBUG  c.z.h.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16335dbf: (connection evicted)
+16.02.2021 00:52:19.561 [HikariPool-1 connection closer] DEBUG  c.z.h.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@69e44556: (connection evicted)
+16.02.2021 00:52:19.562 [HikariPool-1 connection closer] DEBUG  c.z.h.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@456ea974: (connection evicted)
+16.02.2021 00:52:19.564 [HikariPool-1 connection closer] DEBUG  c.z.h.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48456c82: (connection evicted)
+16.02.2021 00:52:19.565 [SpringContextShutdownHook] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+16.02.2021 00:52:19.566 [SpringContextShutdownHook] INFO   c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
